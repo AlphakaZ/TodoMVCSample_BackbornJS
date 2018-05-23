@@ -1,0 +1,43 @@
+body{
+    margin: 0 auto;
+    width:600px;
+    background-color: rgb(244, 244, 244);
+    text-align: center;
+}
+
+#header{
+    color: rgb(229, 205, 208);
+    font-size: 100px;
+    font-family: 'Gulim';
+    font-weight: 100;
+}
+
+#footer{
+    color: gray;
+    font-size: 10px;
+    font-family: 'Gulim';
+    font-weight: 100;
+    line-height: 200%;
+    margin-top: 5em;
+}
+
+.single-task{
+    height: 62px;
+    padding: 0;
+    border: solid;
+    border-color : black;
+}
+
+.task{
+    padding: 0;
+}
+
+.task-checkbox{
+    font-size: 50px;
+    width: 62px !important;
+    text-align: center;
+}
+
+.task-title{
+    width: 500px;
+}

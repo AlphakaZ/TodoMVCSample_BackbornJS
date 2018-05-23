@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="form.css">
+        <title>Backborn.js TodoMVC</title>
+    </head>
+    <body>
+        <header id="header">
+            todos
+        </header>
+        <div id="content">
+            <div id="main-content">
+                <form id="main_task" onsubmit="return false;">
+                    <table><tr class = "task single-task">
+                            <td><input type='checkbox' class = "task-checkbox task" id="select-all-checkbox"/></td>
+                            <td><input type='text'  id="title" class = "task-title task" value="" placeholder="What needs to be done?"/></td>     
+                    </tr></table>
+                </form>
+            </div>
+            <table id="sub-content"></table>
+            <footer id="controller-footer"></footer>
+            
+        </div>
+        <footer id="footer">
+            Double-click to edit a todo<br>
+            Created by Kazuto Saito<br>
+            Refactored by Null<br>
+            Part of TodoMVC<br>
+        </footer>
+    </body>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/underscore-min.js"></script>
+    <script src="js/backbone.js"></script>
+    <script src="js/main.js"></script>
+</html>
